@@ -1,0 +1,284 @@
+html {
+    overflow-x: hidden; }
+/* Font */
+@font-face {
+    font-family: GothamNarrow;
+    src: url(font/GothamNarrow-Medium.woff);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url(font/gotham-bold-webfont.woff);
+    font-weight: bold;
+}
+@font-face {
+    font-family: GothamLight;
+    src: url(font/gotham-light-webfont.woff);
+    font-weight: light;
+}
+/* Navbar */
+.navbar-brand, .nav-link{
+    color: #ffffff !important;
+}
+
+.navbar-brand{
+    font-family: 'GothamLight';
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.nav-link{
+    font-family: 'GothamLight';
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 2px 2px 2px 2px;
+}
+/* Jumbotron */
+.jumbotron{
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.jumbotron .display-4{
+    color: #FAFAFA;
+    font-family: 'Gotham';
+    font-weight: 500;
+    letter-spacing: .05em;
+    margin-top: 25%;
+
+}
+.jumbotron .lead{
+    font-family: 'GothamLight';
+    color: #ffffff;
+}
+
+/* Mobile */
+@media (max-width: 992px) {
+    .navbar{
+        background-color: black !important ;
+}
+.jumbotron .display-4{
+    font-size: 32px;
+}
+.logo{
+    margin-left: 10%;
+}
+.header2{
+    height: 500px;
+}
+.header2 h1{
+    padding-top: 130px;
+    padding-left: 40px;
+}
+.header2 p{
+    padding-left: 40px
+}
+.owl-carousel .item img {
+    display: block;
+    padding-left: 30%;
+    height: 100%;
+    width: auto;
+}
+.tombolheader2 {
+    margin-left: 40px;
+}
+.members img {
+    margin: 20px 20px 20px;
+}
+.logofooter{
+    height: 70%;
+    padding-top: 20px;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}}
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 992px) {
+    .jumbotron .display-4{
+    margin-top: 0;
+}}
+
+/* Desktop */
+@media (min-width: 992px) { 
+.navbar{
+    margin-top: 20px;
+}
+    .cart{
+    margin-left: 50px;
+    margin-top: 3px;
+} 
+
+.jumbotron{
+margin-top: -75px;
+height: 768px;
+}
+.jumbotron .display-4 {
+    font-size: 69px;
+}
+.owl-theme{
+    height: 412px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.header2{
+    height: 400px;
+}
+.header2 h1{
+    font-family: 'GothamBold';
+    color: #FAFAFA;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.header2 p{
+    font-family: 'GothamLight';
+    color: #FAFAFA;
+    text-align: left;
+    padding-left: 100px;
+}
+.owl-carousel .item img {
+    display: block;
+    height: 100%;
+    width: auto;
+    padding-left: 25px;
+}
+.tombolheader2{
+    margin-left: 100px;
+}
+.footer .col-sm-4{
+    padding-top: 50px;
+}
+.logofooter{
+    padding-bottom: 40px;
+}}
+
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+    background-color: #490D40;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+  }
+  .navbar.solid .navbar-brand {
+    color: #000000;
+    transition: color 1s ease 0s;
+  }
+  .navbar.solid .navbar-nav > li > a {
+    color: #000000;
+    transition: color 1s ease 0s;
+  }
+  
+
+.tombol{
+    background-color: #FF9900;
+    border-radius: 20px;
+    padding: 5px 30px ;
+    color: black;
+    margin-top: 10px;
+}
+.jembut{
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+.tombolproduct{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    border-radius: 20px;
+    padding: 5px 30px ;
+    color: black;
+    margin-top: 10px;
+}
+/* Carousel Slider */
+
+
+.headerproduct{
+    font-family: 'GothamLight';
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.product1{
+    font-family: 'GothamLight';
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.productprice{
+    font-family: 'GothamBold';
+    font-size: 12px;
+}
+
+
+
+.header2 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-image: url(../img/header2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header2 h1{
+    font-family: 'GothamBold';
+    color: #FAFAFA;
+    text-align: left;
+}
+
+.header2 p{
+    font-family: 'GothamLight';
+    color: #FAFAFA;
+    text-align: left;
+}
+
+.tombolheader2{
+    background-color: #FF9900;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+/* Behind The Desk */
+.displaybehind{
+    font-family: 'GothamLight';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.members{
+    text-align: center;
+}
+.members img{
+    width: auto;
+}
+
+.members p{
+    margin-top: 20px;
+    font-family: 'GothamNarrow';
+}
+.members p span{
+    font-family: 'GothamLight';
+    font-size: 16px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 100px;
+    background-color: black;
+    height: auto;
+}
+.footer p{
+    color: #FAFAFA;
+    font-family: 'GothamLight';
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.socmed{
+    margin-right: 30px;
+}
